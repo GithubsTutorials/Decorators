@@ -16,7 +16,7 @@ def create_deco(func):
     return wrappers
 
     
-### Here, you’re creating a decorator called my_decorator that adds some functionality before and after the execution of func.
+### Here, you’re creating a decorator called create_deco that adds some functionality before and after the execution of func.
 
 ### Applying the Decorator
 @create_deco
