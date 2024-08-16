@@ -27,6 +27,12 @@ def ribbon():
 
 ribbon()
 
+### OUTPUT
+### Enhance the Message : 
+### Perfecto!!!!
+### Enhanced well! : 
+
+
 ### How It Works
 When @create_deco is placed above ribbon, it transforms ribbon by passing it to create_deco.
 
@@ -56,6 +62,10 @@ class MyClass:
 
 MyClass.my_static_method()
 
+### OUTPUT
+### This is a static method.
+
+
 
 ### @classmethod -
 ### Purpose: Used to define a class method. Class methods receive the class (cls) as their first argument instead of the instance (self).
@@ -64,6 +74,10 @@ class MyClass:
     @classmethod
     def my_class_method(cls):
         print(f"This is a class method of {cls}")
+
+ ### OUTPUT
+ ### This is a class method of <class '__main__.MyClass'>
+
 
 MyClass.my_class_method()
 
